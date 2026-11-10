@@ -1,0 +1,15 @@
+{
+  "name": "mpg-to-mp4-converter",
+  "version": "1.0.0",
+  "description": "Convert MPG/MPEG files to MP4 using ffmpeg",
+  "main": "convert.js",
+  "scripts": {
+    "convert": "node convert.js"
+  },
+  "dependencies": {
+    "ffmpeg": "^0.0.4",
+    "fluent-ffmpeg": "^2.1.3"
+  },
+  "author": "",
+  "license": "ISC"
+}
